@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>X-Men - Harry Fritz Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jaini+Purva&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Oxanium:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img class="logo" src="images/logo (1).svg" alt="Logo x-men" />
+    </header>
+    <main class="character-selection">
+      <section class="characters">
+        <h1 class="title">Select a character</h1>
+        <ul class="character-list">
+          <li
+            class="selected-character"
+            id="cyclops"
+            data-name="Cyclops"
+            data-description="He has the power to fire optical blasts due to an accident that happened to him as a child, but he cannot control them"
+          >
+            <img src="images/card-cyclops.jpg" alt="Cyclops Character" />
+          </li>
+          <li
+            class="character"
+            id="jean-grey"
+            data-name="Jean Grey"
+            data-description="Jean Grey is an omega-level mutant and the main avatar of the Phoenix Force, in which he manifests cosmic powers. Telepathy and telekinesis"
+          >
+            <img src="images/card-jean-grey.jpg" alt="Character Jean Grey" />
+          </li>
+          <li
+            class="character"
+            id="black lynx"
+            data-name="Black Lynx"
+            data-description="She has the power to pass through solid matter, energy fields, optical blasts, remaining intact, and also has the power to walk on air"
+          >
+            <img src="images/card-black-lynx.jpg" alt="Character Black Lynx" />
+          </li>
+          <li
+            class="character"
+            id="storm"
+            data-name="Storm"
+            data-description="She has the power to control the forces of nature, very powerful, she can produce lightning, rain, ice, wind, fog, among other effects"
+          >
+            <img src="images/card-storm.jpg" alt="Character Storm" />
+          </li>
+          <li
+            class="character"
+            id="vampire"
+            data-name="Vampire"
+            data-description="She has the power to absorb the vitality and memory of the people she touches or in the case of mutants, the powers and memory, but only temporarily."
+          >
+            <img src="images/card-vampire.jpg" alt="Character Vampire" />
+          </li>
+          <li
+            class="character"
+            id="wolverine"
+            data-name="Wolverine"
+            data-description="Powers. Metallic Claws. Regenerative Healing Factor, Super Agility."
+          >
+            <img src="images/card-wolverine.jpg" alt="Character Wolverine" />
+          </li>
+          <li
+            class="character"
+            id="nocturnal"
+            data-name="Nocturnal"
+            data-description="He is a mutant who was born with a tail, pointy ears and the power to teleport"
+          >
+            <img src="images/card-nocturnal.jpg" alt="Character Nocturnal" />
+          </li>
+          <li
+            class="character"
+            id="magneto"
+            data-name="Magneto"
+            data-description="He has the power of magnetokinesis, that is, to control metal objects and create magnetic fields"
+          >
+            <img src="images/card-magneto.jpg" alt="Character Magneto" />
+          </li>
+        </ul>
+      </section>
+      <section class="selected-Character">
+        <img
+          class="large-character"
+          src="images/card-cyclops.png"
+          alt="Selected Character"
+        />
+        <div class="character-information">
+          <h2 class="character-name" id="character-name">Cyclops</h2>
+          <p class="character-description" id="character-description">
+            He has the power to fire optical blasts due to an accident that
+            happened to him as a child, but he cannot control them
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="js/index.js"></script>
+  </body>
+  <footer>
+    <div class="footer">
+      <p>Designed by: Harry Fritz Forrosuelo | 2024 All rights reserved</p>
+    </div>
+  </footer>
+</html>
